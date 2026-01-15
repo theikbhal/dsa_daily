@@ -1,0 +1,184 @@
+[
+  {
+    "day": 1,
+    "title": "Two Sum",
+    "level": "Easy",
+    "tags": ["Array", "HashMap"],
+    "hint": "Use hashmap to find complement",
+    "link": "https://leetcode.com/problems/two-sum/"
+  },
+  {
+    "day": 2,
+    "title": "Reverse String",
+    "level": "Easy",
+    "tags": ["String", "Two Pointers"],
+    "hint": "Swap from both ends",
+    "link": "https://leetcode.com/problems/reverse-string/"
+  },
+  {
+    "day": 3,
+    "title": "Valid Palindrome",
+    "level": "Easy",
+    "tags": ["String", "Two Pointers"],
+    "hint": "Ignore non-alphanumeric characters",
+    "link": "https://leetcode.com/problems/valid-palindrome/"
+  },
+  {
+    "day": 4,
+    "title": "Maximum Subarray",
+    "level": "Easy",
+    "tags": ["Array", "DP"],
+    "hint": "Kadane’s algorithm",
+    "link": "https://leetcode.com/problems/maximum-subarray/"
+  },
+  {
+    "day": 5,
+    "title": "Best Time to Buy and Sell Stock",
+    "level": "Easy",
+    "tags": ["Array", "Greedy"],
+    "hint": "Track minimum price so far",
+    "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/"
+  },
+  {
+    "day": 6,
+    "title": "Merge Two Sorted Lists",
+    "level": "Easy",
+    "tags": ["Linked List"],
+    "hint": "Use dummy node",
+    "link": "https://leetcode.com/problems/merge-two-sorted-lists/"
+  },
+  {
+    "day": 7,
+    "title": "Remove Duplicates from Sorted Array",
+    "level": "Easy",
+    "tags": ["Array", "Two Pointers"],
+    "hint": "Slow and fast pointer",
+    "link": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/"
+  },
+  {
+    "day": 8,
+    "title": "Valid Parentheses",
+    "level": "Easy",
+    "tags": ["Stack"],
+    "hint": "Use stack to match brackets",
+    "link": "https://leetcode.com/problems/valid-parentheses/"
+  },
+  {
+    "day": 9,
+    "title": "Fibonacci Number",
+    "level": "Easy",
+    "tags": ["DP"],
+    "hint": "Bottom-up DP",
+    "link": "https://leetcode.com/problems/fibonacci-number/"
+  },
+  {
+    "day": 10,
+    "title": "Binary Search",
+    "level": "Easy",
+    "tags": ["Binary Search"],
+    "hint": "Array must be sorted",
+    "link": "https://leetcode.com/problems/binary-search/"
+  },
+  {
+    "day": 11,
+    "title": "Subarray Sum Equals K",
+    "level": "Medium",
+    "tags": ["Array", "Prefix Sum", "HashMap"],
+    "hint": "Store prefix sum count",
+    "link": "https://leetcode.com/problems/subarray-sum-equals-k/"
+  },
+  {
+    "day": 12,
+    "title": "3Sum",
+    "level": "Medium",
+    "tags": ["Array", "Two Pointers"],
+    "hint": "Sort array and skip duplicates",
+    "link": "https://leetcode.com/problems/3sum/"
+  },
+  {
+    "day": 13,
+    "title": "Product of Array Except Self",
+    "level": "Medium",
+    "tags": ["Array", "Prefix"],
+    "hint": "Left and right product",
+    "link": "https://leetcode.com/problems/product-of-array-except-self/"
+  },
+  {
+    "day": 14,
+    "title": "Longest Substring Without Repeating Characters",
+    "level": "Medium",
+    "tags": ["Sliding Window"],
+    "hint": "Move left pointer on duplicate",
+    "link": "https://leetcode.com/problems/longest-substring-without-repeating-characters/"
+  },
+  {
+    "day": 15,
+    "title": "Container With Most Water",
+    "level": "Medium",
+    "tags": ["Two Pointers"],
+    "hint": "Move pointer with smaller height",
+    "link": "https://leetcode.com/problems/container-with-most-water/"
+  },
+  {
+    "day": 16,
+    "title": "Linked List Cycle",
+    "level": "Medium",
+    "tags": ["Linked List", "Two Pointers"],
+    "hint": "Floyd’s cycle detection",
+    "link": "https://leetcode.com/problems/linked-list-cycle/"
+  },
+  {
+    "day": 17,
+    "title": "Merge Intervals",
+    "level": "Medium",
+    "tags": ["Array", "Sorting"],
+    "hint": "Sort by start time",
+    "link": "https://leetcode.com/problems/merge-intervals/"
+  },
+  {
+    "day": 18,
+    "title": "Search in Rotated Sorted Array",
+    "level": "Medium",
+    "tags": ["Binary Search"],
+    "hint": "One half always sorted",
+    "link": "https://leetcode.com/problems/search-in-rotated-sorted-array/"
+  },
+  {
+    "day": 19,
+    "title": "Number of Islands",
+    "level": "Medium",
+    "tags": ["DFS", "BFS", "Matrix"],
+    "hint": "Flood fill approach",
+    "link": "https://leetcode.com/problems/number-of-islands/"
+  },
+  {
+    "day": 20,
+    "title": "Group Anagrams",
+    "level": "Medium",
+    "tags": ["HashMap", "String"],
+    "hint": "Sorted string as key",
+    "link": "https://leetcode.com/problems/group-anagrams/"
+  },
+ { "day": 21, "title": "Longest Palindromic Substring", "level": "Medium", "tags": ["String", "DP"], "hint": "Expand from center", "link": "https://leetcode.com/problems/longest-palindromic-substring/" },
+  { "day": 22, "title": "Top K Frequent Elements", "level": "Medium", "tags": ["Heap", "HashMap"], "hint": "Min heap of size k", "link": "https://leetcode.com/problems/top-k-frequent-elements/" },
+  { "day": 23, "title": "Decode String", "level": "Medium", "tags": ["Stack"], "hint": "Use two stacks", "link": "https://leetcode.com/problems/decode-string/" },
+  { "day": 24, "title": "Coin Change", "level": "Medium", "tags": ["DP"], "hint": "Min coins DP", "link": "https://leetcode.com/problems/coin-change/" },
+  { "day": 25, "title": "Validate BST", "level": "Medium", "tags": ["Tree", "DFS"], "hint": "Maintain min and max range", "link": "https://leetcode.com/problems/validate-binary-search-tree/" },
+  { "day": 26, "title": "Lowest Common Ancestor", "level": "Medium", "tags": ["Tree"], "hint": "Postorder traversal", "link": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/" },
+  { "day": 27, "title": "Kth Largest Element", "level": "Medium", "tags": ["Heap"], "hint": "Min heap size k", "link": "https://leetcode.com/problems/kth-largest-element-in-an-array/" },
+  { "day": 28, "title": "Word Search", "level": "Medium", "tags": ["Backtracking"], "hint": "DFS + visited matrix", "link": "https://leetcode.com/problems/word-search/" },
+  { "day": 29, "title": "Course Schedule", "level": "Medium", "tags": ["Graph", "Topological Sort"], "hint": "Detect cycle", "link": "https://leetcode.com/problems/course-schedule/" },
+  { "day": 30, "title": "Daily Temperatures", "level": "Medium", "tags": ["Stack"], "hint": "Monotonic stack", "link": "https://leetcode.com/problems/daily-temperatures/" },
+
+  { "day": 31, "title": "Trapping Rain Water", "level": "Hard", "tags": ["Two Pointers"], "hint": "Left max, right max", "link": "https://leetcode.com/problems/trapping-rain-water/" },
+  { "day": 32, "title": "Largest Rectangle in Histogram", "level": "Hard", "tags": ["Stack"], "hint": "Monotonic stack", "link": "https://leetcode.com/problems/largest-rectangle-in-histogram/" },
+  { "day": 33, "title": "N-Queens", "level": "Hard", "tags": ["Backtracking"], "hint": "Row by row placement", "link": "https://leetcode.com/problems/n-queens/" },
+  { "day": 34, "title": "Median of Two Sorted Arrays", "level": "Hard", "tags": ["Binary Search"], "hint": "Partition arrays", "link": "https://leetcode.com/problems/median-of-two-sorted-arrays/" },
+  { "day": 35, "title": "Word Ladder", "level": "Hard", "tags": ["BFS"], "hint": "Level by level BFS", "link": "https://leetcode.com/problems/word-ladder/" },
+  { "day": 36, "title": "Edit Distance", "level": "Hard", "tags": ["DP"], "hint": "2D DP table", "link": "https://leetcode.com/problems/edit-distance/" },
+  { "day": 37, "title": "Serialize Deserialize Binary Tree", "level": "Hard", "tags": ["Tree"], "hint": "Preorder traversal", "link": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/" },
+  { "day": 38, "title": "Sliding Window Maximum", "level": "Hard", "tags": ["Deque"], "hint": "Monotonic deque", "link": "https://leetcode.com/problems/sliding-window-maximum/" },
+  { "day": 39, "title": "Binary Tree Maximum Path Sum", "level": "Hard", "tags": ["Tree", "DFS"], "hint": "Max gain calculation", "link": "https://leetcode.com/problems/binary-tree-maximum-path-sum/" },
+  { "day": 40, "title": "Regular Expression Matching", "level": "Hard", "tags": ["DP", "String"], "hint": "DP with * and .", "link": "https://leetcode.com/problems/regular-expression-matching/" }
+
+]
