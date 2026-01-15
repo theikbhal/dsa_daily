@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>40 Days DSA Plan</title>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: #fff;
+  }
+  header {
+    padding: 16px;
+    text-align: center;
+    background: #020617;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .filters {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px;
+  }
+  button {
+    padding: 6px 12px;
+    border-radius: 20px;
+    border: none;
+    background: #1e293b;
+    color: #fff;
+    cursor: pointer;
+  }
+  button.active { background: #38bdf8; color: #000; }
+  .list { padding: 10px; }
+  .card {
+    background: #020617;
+    margin-bottom: 10px;
+    padding: 12px;
+    border-radius: 10px;
+  }
+  .level { font-size: 12px; opacity: 0.8; }
+  a { color: #38bdf8; text-decoration: none; }
+</style>
+</head>
+<body>
+
+<header>🚀 40 Days DSA Challenge</header>
+
+<div class="filters">
+  <button onclick="filterLevel('All')" class="active">All</button>
+  <button onclick="filterLevel('Easy')">Easy</button>
+  <button onclick="filterLevel('Medium')">Medium</button>
+  <button onclick="filterLevel('Hard')">Hard</button>
+</div>
+
+<div class="list" id="list"></div>
+
+<script>
+const data = [...JSON.parse(`[]`)]; // replace [] with merged JSON if needed
+
+function render(list) {
+  document.getElementById("list").innerHTML =
+    list.map(p => `
+      <div class="card">
+        <div><b>Day ${p.day}:</b> ${p.title}</div>
+        <div class="level">${p.level} • ${p.tags.join(", ")}</div>
+        <div>💡 ${p.hint}</div>
+        <a href="${p.link}" target="_blank">View Problem</a>
+      </div>
+    `).join("");
+}
+
+function filterLevel(level) {
+  document.querySelectorAll("button").forEach(b => b.classList.remove("active"));
+  event.target.classList.add("active");
+  if (level === "All") render(data);
+  else render(data.filter(p => p.level === level));
+}
+
+render(data);
+</script>
+</body>
+</html>
